@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript | Introdução</title>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 <body>
-    
+   <button onclick="DetectClick()" type="button">Clique Aqui!</button> 
+    <p id="msg"></p>   
+ 
 
+ 
+   <span onclick="redirect()">Meu Instagram</span>
+ 
+
+ 
+   <h3>Passe o mouse em mim:  <i onmouseout="reset(this)" onmouseover="trocar(this)" id="emoji" class="em em-angry" aria-role="presentation" aria-label="GRINNING FACE"></i></h3>
+
+
+    <h3>Selecione sua idade:</h3>
+    <select name="" id="" onchange="functionChange(this)">
+        <option value=" "> </option>
+        <option value="1-10">1-10</option>
+        <option value="11-20">11-20</option>
+        <option value="21-30">21-30</option>
+        <option value="31-40">31-40</option>
+        <option value="41-50">41-50</option>
+        <option value="Idoso">Idoso</option>
+    </select>
+
+    <h3 id="msg-end"></h3>
 <script src="js/main.js"></script>
 </body>
 </html>

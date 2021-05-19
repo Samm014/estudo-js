@@ -1,2 +1,2 @@
-# aula-javascript
+# Estudos em JavaScript
 dominando javascript
